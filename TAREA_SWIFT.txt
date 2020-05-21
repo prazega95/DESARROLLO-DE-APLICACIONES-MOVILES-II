@@ -1,0 +1,33 @@
+import Foundation
+
+//declarando variables
+
+var Dni: Int
+var Nombres: String
+var LugarSalida: String
+var LugarDestino: String
+var Costo: Double
+var Cantidad: Int
+var TotalPagar: Double
+
+//estableciendo parametros
+Dni = 12345678
+Nombres = "Erick"
+LugarSalida = "Lima"
+LugarDestino = "Tumbes"
+Costo = 20.5
+Cantidad = 2
+
+//Realizando el calculo para el total a TotalPagar
+
+TotalPagar = Double(Cantidad) * Costo
+
+//imprimiendo
+print("Nombres:  \(Nombres)")
+print("Dni:  \(Dni)")
+print("Salida:  \(LugarSalida)")
+print("Destino:  \(LugarDestino)")
+print("Cantidad:  \(Cantidad)")
+print("Total a Pagar:  \(TotalPagar)")
+
+
